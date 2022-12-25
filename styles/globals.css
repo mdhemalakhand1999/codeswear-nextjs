@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.block.relative.rounded.overflow-hidden img {
+  height: 300px;
+  width: 140px;
+  margin: 0 auto;
+  object-fit: scale-down;
+}
+
+.lg\:w-1\/4.md\:w-1\/2.p-4.w-full .mt-4 {
+  text-align: center;
+}
+.menu {
+  display: inline-block;
+}
+
+.cart {
+  display: inline-block;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
